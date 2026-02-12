@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import api from "../../services/api";
-import "../styles/auth.css";
+import "../../styles/auth.css";
 
 export default function VerifyOtp() {
   const [otp, setOtp] = useState("");
