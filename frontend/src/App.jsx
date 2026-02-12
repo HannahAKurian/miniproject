@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import VerifyOtp from "./pages/VerifyOtp";
-import AdminDashboard from "./pages/AdminDashboard";
-import OwnerDashboard from "./pages/OwnerDashboard";
-import CustomerDashboard from "./pages/CustomerDashboard";
+import Login from "./pages/auth/Login";
+import Register from "./pages/auth/Register";
+import VerifyOtp from "./pages/auth/VerifyOtp";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import OwnerDashboard from "./pages/owner/OwnerDashboard";
+import CustomerDashboard from "./pages/customer/CustomerDashboard";
 
 export default function App() {
   return (
